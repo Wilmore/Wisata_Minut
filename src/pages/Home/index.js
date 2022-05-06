@@ -52,7 +52,7 @@ const Home = ({navigation}) => {
         <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
           <View style={{flexDirection: 'row', margin: 15}}>
 
-            {/* Raewaya Hills */}
+            
             <TouchableOpacity style={{flexDirection:'row'}} onPress={()=>navigation.navigate('RaewayaView')} >
               <Image source={RW} resizeMode='cover' />
             </TouchableOpacity>
@@ -66,21 +66,21 @@ const Home = ({navigation}) => {
 
 
 
-            {/* Default Wilmore*/}
+           
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
               <Image source={HD} resizeMode='cover' />
             </TouchableOpacity>
 
 
 
-            {/* Default Marchel*/}
+            
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
               <Image source={HD} resizeMode='cover' />
             </TouchableOpacity>
 
 
 
-            {/* Default Richard*/}
+            
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
               <Image source={HD} resizeMode='cover' />
             </TouchableOpacity>
@@ -108,17 +108,17 @@ const Home = ({navigation}) => {
               <Image source={PT} resizeMode='cover' />
             </TouchableOpacity>
 
-            {/* Default Marchel*/}
+            
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
               <Image source={HD} resizeMode='cover' />
             </TouchableOpacity>
 
-            {/* Default Wilmore*/}
+            
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
               <Image source={HD} resizeMode='cover' />
             </TouchableOpacity>
 
-            {/* Default Richard*/}
+            
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
               <Image source={HD} resizeMode='cover' />
             </TouchableOpacity>
