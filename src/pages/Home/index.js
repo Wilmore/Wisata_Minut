@@ -72,10 +72,11 @@ const Home = ({navigation}) => {
 
 
 
-            {/* Default Wilmore*/}
-            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
-              <Image source={HD} resizeMode='cover' />
+            {/* Gunung Tumpa*/}
+            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('GTumpaView')} >
+              <Image source={GT} resizeMode='cover' />
             </TouchableOpacity>
+
 
 
 
@@ -103,8 +104,8 @@ const Home = ({navigation}) => {
 
 
              {/* Default */}
-            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
-              <Image source={HD} resizeMode='cover' />
+            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PantaiTumpaanView')} >
+              <Image source={PT} resizeMode='cover' />
             </TouchableOpacity>
 
 

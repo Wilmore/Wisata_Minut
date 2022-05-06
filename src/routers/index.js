@@ -64,6 +64,23 @@ const index = () => {
         component={DefaultAkomodasi}
         options={{headerShown: false}}
       />
+      <Stack.Screen
+        name="PantaiTumpaanView"
+        component={PantaiTumpaanView}
+        options={{headerShown: false}}
+      />
+
+      <Stack.Screen
+        name="PantaiTumpaanAkomodasi"
+        component={PantaiTumpaanAkomodasi}
+        options={{headerShown: false}}
+      />
+
+      <Stack.Screen
+        name="GTumpaView"
+        component={GTumpaView}
+        options={{headerShown: false}}
+      />
     </Stack.Navigator>
   );
 };

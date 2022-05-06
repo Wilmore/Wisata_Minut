@@ -1,4 +1,7 @@
 /* eslint-disable prettier/prettier */
+/* eslint-disable comma-dangle */
+/* eslint-disable prettier/prettier */
+/* eslint-disable prettier/prettier */
 /* eslint-disable eol-last */
 /* eslint-disable prettier/prettier */
 import Raewaya from './Raewaya.png';
@@ -10,5 +13,9 @@ import SutanRaja from './sr_a.svg';
 import DefaultImage from './di_a.svg';
 import HomeDefault from './homeDefault.png';
 import DefaultHeader from './defaultView.png';
-
-export {Raewaya, RaewayaHeader, RaewayaCafe, TeduMatuari, Zeropoint, SutanRaja, DefaultImage, HomeDefault, DefaultHeader};
+import PantaiTumpa from './pantaiTumpa.png';
+import PantaiTumpaView from './Tumpaan2.png';
+import AkomodasiTumpaan from './PenginapanTumpa.svg';
+import GunungTumpa from './GunungTumpaHome.png';
+import TumpaView from './GunungTumpaView.png'
+export {Raewaya, RaewayaHeader, RaewayaCafe, TeduMatuari, Zeropoint, SutanRaja, DefaultImage, HomeDefault, DefaultHeader, PantaiTumpa, PantaiTumpaView, AkomodasiTumpaan, GunungTumpa,TumpaView };

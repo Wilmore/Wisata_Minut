@@ -1,3 +1,4 @@
+/* eslint-disable no-trailing-spaces */
 /* eslint-disable prettier/prettier */
 import SplashScreen from './SplashScreen';
 import SignIn from './SignIn';
@@ -8,7 +9,9 @@ import RaewayaView from './RaewayaView';
 import RaewayaAkomodasi from './RaewayaAkomodasi';
 import DefaultView from './DefaultView';
 import DefaultAkomodasi from './DefaultAkomodasi';
-
+import PantaiTumpaanView from './PantaiTumpaanView';
+import PantaiTumpaanAkomodasi from './PantaiTumpaanAkomodasi';
+import GTumpaView from './GTumpaView'; 
 export {
     SplashScreen,
     SignIn,
@@ -19,4 +22,7 @@ export {
     RaewayaAkomodasi,
     DefaultView,
     DefaultAkomodasi,
+    PantaiTumpaanView,
+    PantaiTumpaanAkomodasi,
+    GTumpaView,
 };
