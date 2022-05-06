@@ -11,6 +11,11 @@ import {
   RaewayaAkomodasi,
   DefaultView,
   DefaultAkomodasi,
+  PantaiTumpaanAkomodasi,
+  PantaiTumpaanView,
+  GTumpaView,
+  PallAkomodasi,
+  PallView,
 } from '../pages';
 
 
@@ -79,6 +84,16 @@ const index = () => {
       <Stack.Screen
         name="GTumpaView"
         component={GTumpaView}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="PallView"
+        component={PallView}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="PallAkomodasi"
+        component={PallAkomodasi}
         options={{headerShown: false}}
       />
     </Stack.Navigator>

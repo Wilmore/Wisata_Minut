@@ -16,16 +16,10 @@ import { Gap } from '../../components/atoms';
 import {
   HomeBackround as HB,
   HomeDefault as HD,
-  Raewaya as RW,  // Perkins
-                  // Perkins
-                  // Richard
-                  // Richard
-                  // Vallen
-                  // Vallen
-                  // Wilmore
-                  // Wilmore
-                  // Marchell
-                  // Marchel
+  Raewaya as RW,
+  PantaiPall as PP,
+  PantaiTumpa as PT,
+  GunungTumpa as GT,
 } from '../../assets';
 
 
@@ -65,18 +59,17 @@ const Home = ({navigation}) => {
 
 
 
-            {/* Default Vallen*/}
-            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
-              <Image source={HD} resizeMode='cover' />
-            </TouchableOpacity>
-
-
-
             {/* Gunung Tumpa*/}
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('GTumpaView')} >
               <Image source={GT} resizeMode='cover' />
             </TouchableOpacity>
 
+
+
+            {/* Default Wilmore*/}
+            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
+              <Image source={HD} resizeMode='cover' />
+            </TouchableOpacity>
 
 
 
@@ -103,16 +96,16 @@ const Home = ({navigation}) => {
 
 
 
-             {/* Default */}
-            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PantaiTumpaanView')} >
-              <Image source={PT} resizeMode='cover' />
+             {/* Pantai Pall */}
+            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PallView')} >
+              <Image source={PP} resizeMode='cover' />
             </TouchableOpacity>
 
 
 
-            {/* Default Vallen*/}
-            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
-              <Image source={HD} resizeMode='cover' />
+            {/* Pantai Tumpa*/}
+            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PantaiTumpaanView')} >
+              <Image source={PT} resizeMode='cover' />
             </TouchableOpacity>
 
             {/* Default Marchel*/}
