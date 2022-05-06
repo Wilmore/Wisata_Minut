@@ -90,6 +90,20 @@ const PallAkomodasi = ({navigation}) => {
                 </View>
             </TouchableOpacity>
 
+            <TouchableOpacity activeOpacity={0.7} onPress={ ()=>{ Linking.openURL('https://www.google.com/maps/dir/Raewaya+Hills,+Airmadidi+Atas,+North+Minahasa+Regency,+North+Sulawesi/RM.ZERO+POINT+-+SUKUR,+Matungkas,+North+Minahasa+Regency,+North+Sulawesi/@1.4628307,124.9637193,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3287093b03800c4b:0x79f2c842f9734780!2m2!1d124.9809514!2d1.4510976!1m5!1m1!1s0x328709705421c555:0x9cf306519d5332a!2m2!1d124.964203!2d1.4631917!3e0')}}>
+                <View style={styles.Wrapper}>
+                    <DefaultImage/>
+                    <View style={styles.Wrapper2}>
+                        <Text style={styles.Text1}>Default Text</Text>
+                        <Text style={styles.Text2}>Default Name Text</Text>
+                        <View style={{flexDirection: 'row', alignItems:'center', alignContent:'center', marginLeft:15}}>
+                            <LocationIcon/>
+                            <Text style={styles.Text3}>- KM</Text>
+                        </View>
+                    </View>
+                </View>
+            </TouchableOpacity>
+
 
         </ScrollView>
     </View>
