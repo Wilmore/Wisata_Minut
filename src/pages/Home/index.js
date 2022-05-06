@@ -52,7 +52,7 @@ const Home = ({navigation}) => {
         <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
           <View style={{flexDirection: 'row', margin: 15}}>
 
-            {/* Raewaya Perkins */}
+            {/* Raewaya Hills */}
             <TouchableOpacity style={{flexDirection:'row'}} onPress={()=>navigation.navigate('RaewayaView')} >
               <Image source={RW} resizeMode='cover' />
             </TouchableOpacity>
@@ -103,7 +103,7 @@ const Home = ({navigation}) => {
 
 
 
-            {/* Pantai Tumpa*/}
+            {/* Pantai Tumpaan*/}
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PantaiTumpaanView')} >
               <Image source={PT} resizeMode='cover' />
             </TouchableOpacity>
