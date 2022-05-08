@@ -22,6 +22,7 @@ import {
   GunungTumpa as GT,
   GunungKlabat as GK,   
   PantaiMangket as PM,
+  Kakidian as KD,            
 } from '../../assets';
 
 
@@ -77,9 +78,11 @@ const Home = ({navigation}) => {
 
 
             
-            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
-              <Image source={HD} resizeMode='cover' />
+            {/*kakidian*/}
+            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('KakiDianView')} >
+              <Image source={KD} resizeMode='cover' />
             </TouchableOpacity>
+
 
 
 

@@ -18,6 +18,7 @@ import {
   PallView,
   GKlabatView,
   PMangketView,
+  KakiDianView,
 } from '../pages';
 
 
@@ -109,7 +110,11 @@ const index = () => {
         component={PMangketView}
         options={{headerShown: false}}
       />
-    </Stack.Navigator>
+      <Stack.Screen
+        name="KakiDianView"
+        component={KakiDianView}
+        options={{headerShown: false}}
+      />
     </Stack.Navigator>
   );
 };
