@@ -11,15 +11,18 @@ import {
   RaewayaAkomodasi,
   DefaultView,
   DefaultAkomodasi,
+  PallView,
+  PallAkomodasi,
   PantaiTumpaanAkomodasi,
   PantaiTumpaanView,
   GTumpaView,
-  PallAkomodasi,
-  PallView,
   GKlabatView,
   PMangketView,
   KakiDianView,
   PantaiPulisanView,
+  PulauGangaViewPage,
+  AirTerjunView,
+  GangaAkomodasi,
 } from '../pages';
 
 
@@ -74,6 +77,16 @@ const index = () => {
         options={{headerShown: false}}
       />
       <Stack.Screen
+        name="PallView"
+        component={PallView}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="PallAkomodasi"
+        component={PallAkomodasi}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
         name="PantaiTumpaanView"
         component={PantaiTumpaanView}
         options={{headerShown: false}}
@@ -90,17 +103,6 @@ const index = () => {
         component={GTumpaView}
         options={{headerShown: false}}
       />
-      <Stack.Screen
-        name="PallView"
-        component={PallView}
-        options={{headerShown: false}}
-      />
-      <Stack.Screen
-        name="PallAkomodasi"
-        component={PallAkomodasi}
-        options={{headerShown: false}}
-      />
-      
       <Stack.Screen
         name="GKlabatView"
         component={GKlabatView}
@@ -122,13 +124,13 @@ const index = () => {
         options={{headerShown: false}}
       />
       <Stack.Screen
-        name="AirTerjunView"
-        component={AirTerjunView}
+        name="PulauGangaViewPage"
+        component={PulauGangaViewPage}
         options={{headerShown: false}}
       />
       <Stack.Screen
-        name="PulauGangaView"
-        component={PulauGangaView}
+        name="AirTerjunView"
+        component={AirTerjunView}
         options={{headerShown: false}}
       />
       <Stack.Screen
