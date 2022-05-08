@@ -17,6 +17,10 @@ import GKlabatView from './GKlabatView';
 import PMangketView from './PantaiMangketView';
 import KakiDianView from './KakiDianView';
 import PantaiPulisanView from './PantaiPulisanView';
+import AirTerjunView from './AirTerjunView';
+import PulauGangaView from './PulauGangaView';
+import GangaAkomodasi from './GangaAkomodasi';
+
 export {
     SplashScreen,
     SignIn,
@@ -36,4 +40,7 @@ export {
     PMangketView,
     KakiDianView,
     PantaiPulisanView,
+    AirTerjunView,
+    PulauGangaView,
+    GangaAkomodasi,
 };
