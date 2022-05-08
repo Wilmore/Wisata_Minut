@@ -19,6 +19,7 @@ import {
   GKlabatView,
   PMangketView,
   KakiDianView,
+  PantaiPulisanView,
 } from '../pages';
 
 
@@ -113,6 +114,11 @@ const index = () => {
       <Stack.Screen
         name="KakiDianView"
         component={KakiDianView}
+        options={{headerShown: false}}
+      />
+       <Stack.Screen
+        name="PantaiPulisanView"
+        component={PantaiPulisanView}
         options={{headerShown: false}}
       />
     </Stack.Navigator>
