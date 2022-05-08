@@ -13,6 +13,7 @@ import PallAkomodasi from './PallAkomodasi';
 import PantaiTumpaanView from './PantaiTumpaanView';
 import PantaiTumpaanAkomodasi from './PantaiTumpaanAkomodasi';
 import GTumpaView from './GTumpaView';
+import GKlabatView from './GKlabatView';
 export {
     SplashScreen,
     SignIn,
@@ -28,4 +29,5 @@ export {
     GTumpaView,
     PallAkomodasi,
     PallView,
+    GKlabatView,
 };

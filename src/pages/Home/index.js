@@ -20,6 +20,8 @@ import {
   PantaiPall as PP,
   PantaiTumpa as PT,
   GunungTumpa as GT,
+  GunungKlabat as GK,   
+  PantaiMangket as PM,
 } from '../../assets';
 
 
@@ -67,8 +69,9 @@ const Home = ({navigation}) => {
 
 
            
-            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
-              <Image source={HD} resizeMode='cover' />
+            {/* GunungKlabat Vallen*/}
+            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('GKlabatView')} >
+              <Image source={GK} resizeMode='cover' />
             </TouchableOpacity>
 
 
