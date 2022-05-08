@@ -112,8 +112,9 @@ const Home = ({navigation}) => {
             </TouchableOpacity>
 
             
-            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
-              <Image source={HD} resizeMode='cover' />
+           {/* PantaiMangket Vallen*/}
+            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PMangketView')} >
+              <Image source={PM} resizeMode='cover' />
             </TouchableOpacity>
 
             
