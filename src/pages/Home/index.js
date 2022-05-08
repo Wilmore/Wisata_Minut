@@ -22,7 +22,8 @@ import {
   GunungTumpa as GT,
   GunungKlabat as GK,   
   PantaiMangket as PM,
-  Kakidian as KD,            
+  Kakidian as KD,     
+  PantaiPulisan as PPV,        
 } from '../../assets';
 
 
