@@ -16,6 +16,7 @@ import {
   GTumpaView,
   PallAkomodasi,
   PallView,
+  GKlabatView,
 } from '../pages';
 
 
@@ -94,6 +95,12 @@ const index = () => {
       <Stack.Screen
         name="PallAkomodasi"
         component={PallAkomodasi}
+        options={{headerShown: false}}
+      />
+      
+      <Stack.Screen
+        name="GKlabatView"
+        component={GKlabatView}
         options={{headerShown: false}}
       />
     </Stack.Navigator>
