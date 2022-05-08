@@ -17,6 +17,7 @@ import {
   PallAkomodasi,
   PallView,
   GKlabatView,
+  PMangketView,
 } from '../pages';
 
 
@@ -103,6 +104,12 @@ const index = () => {
         component={GKlabatView}
         options={{headerShown: false}}
       />
+      <Stack.Screen
+        name="PMangketView"
+        component={PMangketView}
+        options={{headerShown: false}}
+      />
+    </Stack.Navigator>
     </Stack.Navigator>
   );
 };
