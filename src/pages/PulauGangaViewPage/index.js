@@ -17,7 +17,7 @@ import { HomeButton, RaewayaHeader as Rah,
 } from '../../assets';
 import { Button, Gap } from '../../components';
 
-const PulauGangaView = ({navigation}) => {
+const PulauGangaViewPage = ({navigation}) => {
   return (
     <ScrollView style={styles.container}>
       <Image source={PGV} resizeMode='cover'/>
@@ -50,7 +50,7 @@ const PulauGangaView = ({navigation}) => {
   );
 };
 
-export default PulauGangaView;
+export default PulauGangaViewPage;
 
 const styles = StyleSheet.create({
     container: {
