@@ -20,5 +20,9 @@ import PantaiTumpaView from './Tumpaan2.png';
 import AkomodasiTumpaan from './PenginapanTumpa.svg';
 import GunungTumpa from './GunungTumpaHome.png';
 import TumpaView from './GunungTumpaView.png';
+import GunungKlabat from './GunungKlabatHome.png';
+import GunungKlabatView from './GunungKlabatView.png';
+import PantaiMangket from './PantaiMangketHome.png';
+import PantaiMangketView from './PantaiMangketView.png';
 
-export {Raewaya, RaewayaHeader, RaewayaCafe, TeduMatuari, Zeropoint, SutanRaja, DefaultImage, HomeDefault, DefaultHeader, PantaiTumpa, PantaiTumpaView, AkomodasiTumpaan, GunungTumpa,TumpaView, PPallView, PantaiPall, Casabaio };
+export {Raewaya, RaewayaHeader, RaewayaCafe, TeduMatuari, Zeropoint, SutanRaja, DefaultImage, HomeDefault, DefaultHeader, PantaiTumpa, PantaiTumpaView, AkomodasiTumpaan, GunungTumpa,TumpaView, PPallView, PantaiPall, Casabaio, GunungKlabat, GunungKlabatView, PantaiMangket, PantaiMangketView};
