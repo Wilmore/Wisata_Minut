@@ -28,6 +28,17 @@ import Kakidian from './KakiDian.png';
 import KakiDianView from './kakidianminut.png';
 import PantaiPulisan from './pantaipulisan.png';
 import PantaiPulisanView from './pantaipulisanminut.png'
+import AirTerjunTunan from './AirTerjunTunan.png';
+import airTerjun from './AirTerjunView.png';
+import PulauGanga from './PulauGanga.png';
+import PulauGangaView from './PulauGangaView.png';
+import GangaResort from './lgr.svg';
+import MmResort from './mmg.svg';
 
-
-export {Raewaya, RaewayaHeader, RaewayaCafe, TeduMatuari, Zeropoint, SutanRaja, DefaultImage, HomeDefault, DefaultHeader, PantaiTumpa, PantaiTumpaView, AkomodasiTumpaan, GunungTumpa,TumpaView, PPallView, PantaiPall, Casabaio, GunungKlabat, GunungKlabatView, PantaiMangket, PantaiMangketView, Kakidian, KakiDianView, PantaiPulisan,PantaiPulisanView};
+export {Raewaya, RaewayaHeader, RaewayaCafe, TeduMatuari, Zeropoint,
+     SutanRaja, DefaultImage, HomeDefault, DefaultHeader, PantaiTumpa, 
+     PantaiTumpaView, AkomodasiTumpaan, GunungTumpa,TumpaView, PPallView, 
+     PantaiPall, Casabaio, GunungKlabat, GunungKlabatView, PantaiMangket, 
+     PantaiMangketView, Kakidian, KakiDianView, PantaiPulisan,PantaiPulisanView,
+     AirTerjunTunan, airTerjun, PulauGanga, PulauGangaView,
+    GangaResort, MmResort};
