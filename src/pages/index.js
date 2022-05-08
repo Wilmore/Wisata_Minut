@@ -14,6 +14,7 @@ import PantaiTumpaanView from './PantaiTumpaanView';
 import PantaiTumpaanAkomodasi from './PantaiTumpaanAkomodasi';
 import GTumpaView from './GTumpaView';
 import GKlabatView from './GKlabatView';
+import PMangketView from './PantaiMangketView';
 export {
     SplashScreen,
     SignIn,
@@ -30,4 +31,5 @@ export {
     PallAkomodasi,
     PallView,
     GKlabatView,
+    PMangketView,
 };
