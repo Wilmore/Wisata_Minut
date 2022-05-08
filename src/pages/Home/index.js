@@ -122,10 +122,10 @@ const Home = ({navigation}) => {
             </TouchableOpacity>
 
             
-            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
-              <Image source={HD} resizeMode='cover' />
-            </TouchableOpacity>
-
+           {/* Pantai pulisan*/}
+           <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PantaiPulisanView')} >
+              <Image source={PPV} resizeMode='cover' />
+            </TouchableOpacity> 
             
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
               <Image source={HD} resizeMode='cover' />
