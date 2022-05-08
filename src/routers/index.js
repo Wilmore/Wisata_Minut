@@ -121,6 +121,21 @@ const index = () => {
         component={PantaiPulisanView}
         options={{headerShown: false}}
       />
+      <Stack.Screen
+        name="AirTerjunView"
+        component={AirTerjunView}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="PulauGangaView"
+        component={PulauGangaView}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="GangaAkomodasi"
+        component={GangaAkomodasi}
+        options={{headerShown: false}}
+      />
     </Stack.Navigator>
   );
 };
