@@ -20,10 +20,12 @@ import {
   PantaiPall as PP,
   PantaiTumpa as PT,
   GunungTumpa as GT,
-  GunungKlabat as GK,   
+  GunungKlabat as GK,
   PantaiMangket as PM,
-  Kakidian as KD,     
-  PantaiPulisan as PPV,        
+  Kakidian as KD,
+  PantaiPulisan as PPV,
+  AirTerjunTunan as ATT,
+  PulauGanga as PG,
 } from '../../assets';
 
 
@@ -56,7 +58,7 @@ const Home = ({navigation}) => {
         <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
           <View style={{flexDirection: 'row', margin: 15}}>
 
-            
+            {/* Raewaya Perkins */}
             <TouchableOpacity style={{flexDirection:'row'}} onPress={()=>navigation.navigate('RaewayaView')} >
               <Image source={RW} resizeMode='cover' />
             </TouchableOpacity>
@@ -70,25 +72,27 @@ const Home = ({navigation}) => {
 
 
 
-           
-            {/* GunungKlabat Vallen*/}
+            {/* Gunung Klabat */}
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('GKlabatView')} >
               <Image source={GK} resizeMode='cover' />
             </TouchableOpacity>
 
 
 
-            
-            {/*kakidian*/}
+            {/* Default Marchel*/}
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('KakiDianView')} >
               <Image source={KD} resizeMode='cover' />
             </TouchableOpacity>
 
 
 
+            {/* Air Terjun Tunan*/}
+            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('AirTerjunView')} >
+              <Image source={ATT} resizeMode='cover' />
+            </TouchableOpacity>
 
-            
-            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
+            {/* Air Terjun Tunan*/}
+            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('AirTerjunView')} >
               <Image source={HD} resizeMode='cover' />
             </TouchableOpacity>
 
@@ -101,7 +105,10 @@ const Home = ({navigation}) => {
         <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
           <View style={{flexDirection: 'row'}}>
 
-
+          {/* Default Richard*/}
+            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PulauGangaViewPage')} >
+              <Image source={PG} resizeMode='cover' />
+            </TouchableOpacity>
 
              {/* Pantai Pall */}
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PallView')} >
@@ -109,27 +116,21 @@ const Home = ({navigation}) => {
             </TouchableOpacity>
 
 
-
-            {/* Pantai Tumpaan*/}
+            {/* Pantai Tumpa*/}
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PantaiTumpaanView')} >
               <Image source={PT} resizeMode='cover' />
             </TouchableOpacity>
 
-            
-           {/* PantaiMangket Vallen*/}
+            {/* Pantai Mangket*/}
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PMangketView')} >
               <Image source={PM} resizeMode='cover' />
             </TouchableOpacity>
 
-            
-           {/* Pantai pulisan*/}
-           <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PantaiPulisanView')} >
+            {/* Pantai Pulisan*/}
+            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PantaiPulisanView')} >
               <Image source={PPV} resizeMode='cover' />
-            </TouchableOpacity> 
-            
-            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('DefaultView')} >
-              <Image source={HD} resizeMode='cover' />
             </TouchableOpacity>
+
 
           </View>
         </ScrollView>

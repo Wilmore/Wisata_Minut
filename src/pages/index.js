@@ -18,8 +18,9 @@ import PMangketView from './PantaiMangketView';
 import KakiDianView from './KakiDianView';
 import PantaiPulisanView from './PantaiPulisanView';
 import AirTerjunView from './AirTerjunView';
-import PulauGangaView from './PulauGangaView';
+import PulauGangaViewPage from './PulauGangaView';
 import GangaAkomodasi from './GangaAkomodasi';
+
 
 export {
     SplashScreen,
@@ -31,16 +32,16 @@ export {
     RaewayaAkomodasi,
     DefaultView,
     DefaultAkomodasi,
+    PallView,
+    PallAkomodasi,
     PantaiTumpaanView,
     PantaiTumpaanAkomodasi,
     GTumpaView,
-    PallAkomodasi,
-    PallView,
     GKlabatView,
     PMangketView,
     KakiDianView,
     PantaiPulisanView,
     AirTerjunView,
-    PulauGangaView,
+    PulauGangaViewPage,
     GangaAkomodasi,
 };
