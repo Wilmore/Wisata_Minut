@@ -20,9 +20,11 @@ import {
   PMangketView,
   KakiDianView,
   PantaiPulisanView,
-  PulauGangaViewPage,
   AirTerjunView,
   GangaAkomodasi,
+  PulauGangaViewPage,
+  WisataGunung,
+  WisataPantai,
 } from '../pages';
 
 
@@ -124,11 +126,6 @@ const index = () => {
         options={{headerShown: false}}
       />
       <Stack.Screen
-        name="PulauGangaViewPage"
-        component={PulauGangaViewPage}
-        options={{headerShown: false}}
-      />
-      <Stack.Screen
         name="AirTerjunView"
         component={AirTerjunView}
         options={{headerShown: false}}
@@ -136,6 +133,21 @@ const index = () => {
       <Stack.Screen
         name="GangaAkomodasi"
         component={GangaAkomodasi}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="PulauGangaViewPage"
+        component={PulauGangaViewPage}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="WisataGunung"
+        component={WisataGunung}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="WisataPantai"
+        component={WisataPantai}
         options={{headerShown: false}}
       />
     </Stack.Navigator>

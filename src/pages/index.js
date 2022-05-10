@@ -18,8 +18,10 @@ import PMangketView from './PantaiMangketView';
 import KakiDianView from './KakiDianView';
 import PantaiPulisanView from './PantaiPulisanView';
 import AirTerjunView from './AirTerjunView';
-import PulauGangaViewPage from './PulauGangaView';
 import GangaAkomodasi from './GangaAkomodasi';
+import WisataGunung from './WisataGunung/Index';
+import PulauGangaViewPage from './PulauGangaViewPage';
+import WisataPantai from './WisataPantai';
 
 
 export {
@@ -42,6 +44,8 @@ export {
     KakiDianView,
     PantaiPulisanView,
     AirTerjunView,
-    PulauGangaViewPage,
     GangaAkomodasi,
+    PulauGangaViewPage,
+    WisataGunung,
+    WisataPantai,
 };

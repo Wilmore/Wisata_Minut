@@ -12,7 +12,7 @@
 import {ScrollView, StyleSheet, Text, TouchableOpacity, View, Image, ImageBackground} from 'react-native';
 import React from 'react';
 import {LogoHome, LogoKementrian, LogoMinut, Profil} from '../../assets/icons';
-import { Gap } from '../../components/atoms';
+import { ButtonHome, Gap } from '../../components/atoms';
 import {
   HomeBackround as HB,
   HomeDefault as HD,
@@ -54,7 +54,13 @@ const Home = ({navigation}) => {
       </ImageBackground>
 
       <View style={styles.Wrapper3}>
-        <Text style={styles.Text3}>Wisata Gunung</Text>
+        <View style={styles.Wrapper4}>
+          <Text style={styles.Text3}>Wisata Gunung</Text>
+          <View style={{marginLeft: 155, marginTop: 4}}>
+            <ButtonHome title="Lihat Semua" onPress={()=>navigation.navigate('WisataGunung')}/>
+          </View>
+        </View>
+
         <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
           <View style={{flexDirection: 'row', margin: 15}}>
 
@@ -101,20 +107,20 @@ const Home = ({navigation}) => {
       </View>
 
       <View style={styles.Wrapper3}>
-        <Text style={styles.Text3}>Wisata Pantai</Text>
-        <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
-          <View style={{flexDirection: 'row'}}>
+        <View style={styles.Wrapper4}>
+          <Text style={styles.Text3}>Wisata Pantai</Text>
+          <View style={{marginLeft: 155, marginTop: 4}}>
+            <ButtonHome title="Lihat Semua" onPress={()=>navigation.navigate('WisataPantai')}/>
+          </View>
+        </View>
 
-          {/* Default Richard*/}
+        <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+          <View style={{flexDirection: 'row', marginTop: 10}}>
+
+             {/* Default Richard*/}
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PulauGangaViewPage')} >
               <Image source={PG} resizeMode='cover' />
             </TouchableOpacity>
-
-             {/* Pantai Pall */}
-            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PallView')} >
-              <Image source={PP} resizeMode='cover' />
-            </TouchableOpacity>
-
 
             {/* Pantai Tumpa*/}
             <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PantaiTumpaanView')} >
@@ -131,6 +137,10 @@ const Home = ({navigation}) => {
               <Image source={PPV} resizeMode='cover' />
             </TouchableOpacity>
 
+            {/* Pantai Pall */}
+            <TouchableOpacity style={{flexDirection:'row', marginLeft: 15}} onPress={()=>navigation.navigate('PallView')} >
+              <Image source={PP} resizeMode='cover' />
+            </TouchableOpacity>
 
           </View>
         </ScrollView>
@@ -170,6 +180,9 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     marginTop: 20,
   },
+  Wrapper4:{
+    flexDirection: 'row',
+  },
   text : {
     fontFamily: 'Italianno',
     color: '#3D813B',
@@ -193,6 +206,14 @@ const styles = StyleSheet.create({
     fontSize: 14,
     marginLeft: 20,
     color: 'black',
-    marginBottom: 15,
   },
+  Text4:{
+    fontFamily: 'Poppins-Medium',
+    justifyContent: 'center',
+    alignSelf:'center',
+    left: 155,
+    fontSize: 12,
+    textDecorationLine: 'underline',
+    marginTop: 2,
+    },
 });
